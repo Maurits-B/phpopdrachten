@@ -28,5 +28,6 @@
             echo "hello world";
             ?>
         </p>
+        <a href="http://localhost/phpopdrachten/index.php"><button>Terug</button></a>
     </body>
 </html>
