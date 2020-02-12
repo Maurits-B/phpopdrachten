@@ -22,6 +22,7 @@ $text11 = ", ";
 $text12 = "<br>";
 $text13 = "is ";
 $text14 = "Vind je niet ";
+$text15 = "toch ";
 ?>
 
 <!DOCTYPE html>
@@ -40,13 +41,25 @@ $text14 = "Vind je niet ";
 <header>
     <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
 </header>
+    <h1>Taak 2</h1>
     <p>
         <?php
         echo
-        $text1, $text11, $text4, $text5, $text2, $text10, $text12,
-        $text7, $text10, $text8, $text9, $text12,
-        $text6, $text5, $text3, $text10;
+            $text1, $text11, $text4, $text5, $text2, $text10, $text12,
+            $text7, $text10, $text8, $text15 . $text9,  $text12,
+            $text6, $text5, $text3, "is" . $text10;
         ?>
     </p>
+    <h1>
+        Taak 3
+    </h1>
+    <?php
+    echo "<p>" .
+        $text1 . $text11 . $text12 .
+        $text8 . $text15 . "dat " . $text5 . $text3 . $text10 . $text12 .
+        $text7 . $text10 .  $text14. $text9 .
+        "</p>";
+    ?>
+    <a href="http://localhost/phpopdrachten/index.php"><button>Terug</button></a>
 </body>
 </html>
