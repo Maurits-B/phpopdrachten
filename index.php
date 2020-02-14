@@ -28,13 +28,21 @@
         <aside>
             <h2>Menu</h2>
             <ul>
+                <li>
+                    Hoofdstuk 1
+                    <ul>
+                        <li>
+                            <a href="Hoofdstuk 01\helloworld.php">Opdracht Hello World</a>
+                        </li>
+                    </ul>
+                </li>
                 <li>Hoofdstuk 2
                     <ul>
                         <li>
-                            <a href="hoofdstuk2/opdracht_2-1.php">Opdracht 2.1</a>
+                            <a href="hoofdstuk2\opdracht_2-1.php">Opdracht 2.1</a>
                         </li>
                         <li>
-                            <a href="hoofdstuk2/opdracht_2-2.php">Opdracht 2.2</a>
+                            <a href="hoofdstuk2\opdracht_2-2.php">Opdracht 2.2</a>
                         </li>
                     </ul>
                 </li>
@@ -72,6 +80,7 @@
         </aside>
         <main id="wrapper">
             <h2>Uitwerkingen</h2>
+
         </main>
     </body>
 </html>

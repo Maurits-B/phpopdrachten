@@ -14,7 +14,7 @@
     <meta name="description" content=" ">
     <meta name="keywords" content=" ">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../CSS\style.css">
+    <link rel="stylesheet" type="text/css" href="..\..\CSS\style.css">
     <title>
         index
     </title>
@@ -41,7 +41,7 @@
         <li>Hoofdstuk 3
             <ul>
                 <li>
-                    <a href="..\hoofdstuk3/opdracht_3-1.php">Opdracht 3.1</a>
+                    <a href="../hoofdstuk3/opdracht_3-1.php">Opdracht 3.1</a>
                 </li>
                 <li>
                     <a href="../hoofdstuk3/opdracht_3-2.php">Opdracht 3.2</a>
@@ -72,11 +72,15 @@
 </aside>
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
-    <p>
-        <?php
-        echo "Hello world"
-        ?>
-    </p>
+    <?php
+        $proffession = "ICT'er";//string
+        $year = 2019;//interger
+        $percent = 17.1;//float
+        $subject = array("internet", "computers", "software"); //array
+        $skills = false;//boolean
+
+        echo $proffession . $year . $percent . $skills;
+    ?>
 </main>
 </body>
 </html>
