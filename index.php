@@ -6,5 +6,6 @@ include "includes/menu.php";
     <h2>Uitwerkingen</h2>
 
 </main>
-</body>
-</html>
+<?php
+include "includes/footer.php";
+?>
