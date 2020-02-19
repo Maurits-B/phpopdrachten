@@ -1,9 +1,7 @@
-<?php
-$base_url = "http://localhost/phpopdrachten/";
-?>
-
 <aside>
-    <h2>Menu</h2>
+    <a href="/phpopdrachten/index.php">
+        <h2>Menu</h2>
+    </a>
     <ul>
         <li>Hoofdstuk 2
             <ul>
