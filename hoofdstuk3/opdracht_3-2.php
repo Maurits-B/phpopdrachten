@@ -39,79 +39,14 @@ include "../includes/menu.php";
         </p>
         <p>
             <?php
-            $countryName = "België";
-            $CurrentAge = 17;
-
-            echo "Je woont in " . $countryName . " en je bent " . $CurrentAge . " jaar oud."
-            ?>
-        </p>
-        <p>
-            <?php
+                $countryName = "";
+                $CurrentAge = 17;
 
                 if ($countryName == "belgië")
                 {
-                    if ($CurrentAge < 16)
-                    {
-                        echo "Je mag hier niet drinken";
-                    }
-                    elseif ($CurrentAge >= 16)
-                    {
-                        echo "je mag hier laag alcoholpromilage drinken";
-                    }
-                    elseif ($CurrentAge >= 18)
-                    {
-                        echo "je mag hier alles drinken";
-                    }
-                }
-                elseif($countryName == "Bulgarije")
-                {
-                    if ($CurrentAge < 18)
-                    {
-                        echo "Je mag hier niet drinken";
-                    }
-                    elseif ($CurrentAge >= 18)
-                    {
-                        echo "je mag hier alles drinken";
-                    }
 
                 }
-                elseif ($countryName == "Cyprus")
-                {
-                    if ($CurrentAge < 17)
-                    {
-                        echo "Je mag hier niet drinken";
-                    }
-                    elseif ($CurrentAge >= 17)
-                    {
-                        echo "je mag hier alles drinken";
-                    }
-                }
-                elseif ($countryName == "Nederland")
-                {
-                    if ($CurrentAge < 18)
-                    {
-                        echo "Je mag hier niet drinken";
-                    }
-                    elseif ($CurrentAge >= 18)
-                    {
-                        echo "je mag hier alles drinken";
-                    }
-                }
-                elseif ($countryName == "Zweden")
-                {
-                    if ($CurrentAge < 18)
-                    {
-                        echo "Je mag hier niet drinken";
-                    }
-                    elseif ($CurrentAge >= 18)
-                    {
-                        echo "je mag hier laag alcoholpromilage drinken";
-                    }
-                    elseif ($CurrentAge >= 20)
-                    {
-                        echo "je mag hier alles drinken";
-                    }
-                }
+                elseif($countryName == "")
             ?>
         </p>
     </main>
