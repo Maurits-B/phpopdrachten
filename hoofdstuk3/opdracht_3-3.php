@@ -17,5 +17,5 @@ include "../includes/variabelen.php";
     ?>
 </main>
 <?php
-include "../includes/variabelen.php";
+include "../includes/footer.php";
 ?>
