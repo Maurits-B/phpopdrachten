@@ -16,7 +16,9 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="/phpopdrachten/CSS/style.css">
         <title>
-            index
+            <?php
+            echo $title;
+            ?>
         </title>
     </head>
     <body>

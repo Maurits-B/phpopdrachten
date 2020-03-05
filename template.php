@@ -5,6 +5,7 @@
  * Time: **:** AM/PM
  * File: opdracht_2-1.php
  */
+$title = 'OPDRACHTNAAM';
 include "../includes/header.php";
 include "../includes/menu.php";
 include "../includes/variabelen.php";
