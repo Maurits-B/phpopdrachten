@@ -1,4 +1,5 @@
 <?php
+$title = 'index';
 include "includes/header.php";
 include "includes/menu.php";
 ?>

@@ -5,6 +5,7 @@
  * Time: 1:40 PM
  * File: opdracht_4-3.php
  */
+$title = 'Opdracht 4.3';
 include "../includes/header.php";
 include "../includes/menu.php";
 include "../includes/variabelen.php";
