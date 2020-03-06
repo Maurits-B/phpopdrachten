@@ -5,6 +5,7 @@
  * Time: **:** AM/PM
  * File: opdracht_2-1.php
  */
+$title = "INVULLEN";
 include "../includes/header.php";
 include "../includes/menu.php";
 ?>

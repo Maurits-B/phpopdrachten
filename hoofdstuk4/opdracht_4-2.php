@@ -5,6 +5,7 @@
  * Time: 3:58 PM
  * File: opdracht_4-2.php
  */
+$title = "INVULLEN";
 include "../includes/header.php";
 include "../includes/menu.php";
 include "../includes/variabelen.php";
