@@ -1,7 +1,9 @@
-        <footer>
-            <a href="/phpopdrachten/index.php">
-                    Maurits Bakker&copy;
-            </a>
+ <footer>
+        <?php
+            $year = date("Y");
+            $name = "Maurits Bakker";
+            echo $name . "&copy" . $year;
+        ?>
         </footer>
     </body>
 </html>
