@@ -12,8 +12,10 @@ include "../includes/variabelen.php";
 ?>
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
+    <h2>Weekkalender komende week:</h2>
     <?php
     include "4.4/script.php";
+    echo $task1;
     ?>
 </main>
 <?php
