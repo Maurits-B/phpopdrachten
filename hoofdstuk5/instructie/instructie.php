@@ -2,7 +2,7 @@
 
 //instructie formulieren versturen met GET
 ?>
-<form action="form_data.php" method="post">
+<form action="form_data1.php" method="get">
     <label for="firstname">voornaam:</label> <input type="text" name="firstname" id="firstname">
     <label for="lastname">Achternaam:</label> <input type="text" name="lastname" id="lastname">
     <select name="subject">
