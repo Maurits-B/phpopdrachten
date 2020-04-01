@@ -6,7 +6,8 @@ $lastname = $_GET['lastname'];
 $subject = $_GET['subject'];
 //include hieronder "lesopdracht_function.php" die de naam van de docent terug geeft.
 require "lesopdracht_functions53.php";
-
+//print_r($_GET);
+var_dump($_GET);
 echo "<table>";
 if (!empty($firstname))
 {
@@ -20,6 +21,6 @@ if (!empty($lastname))
 {
     echo"<tr><td>Achternaam</td><td>" . $lastname . "</td></tr>";
 }
-echo "<tr><td>". getTeacherName()."</td></tr>";
+echo "<tr><td>". getTeacherName($subject)."</td></tr>";
 echo "</table>";
 
