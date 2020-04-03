@@ -56,8 +56,8 @@ include "../includes/variabelen.php";
                     Ken je mensen die besmet zijn in je woonplaats?
                 </td>
                 <td>
-                    <input type="radio" name="infected" value="yes"> ja
-                    <input type="radio" name="infected" value="no"> nee
+                    <input type="radio" name="know" value="yes"> ja
+                    <input type="radio" name="know" value="no"> nee
                 </td>
             </tr>
             <tr>
@@ -65,7 +65,7 @@ include "../includes/variabelen.php";
                     Aantal mensen besmet in je gemeente? *
                 </td>
                 <td>
-                    <input type="text" name="infected2">
+                    <input type="text" name="infected">
                 </td>
             </tr>
             <tr>
