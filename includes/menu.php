@@ -53,6 +53,9 @@
                 <li>
                     <a href="/phpopdrachten/hoofdstuk5/opdracht_5-3.php">Opdracht 5.3</a>
                 </li>
+                <li>
+                    <a href="/phpopdrachten/hoofdstuk5/opdracht_5-4.php">Opdracht 5.4</a>
+                </li>
             </ul>
         </li>
     </ul>

@@ -80,3 +80,15 @@ footer
     text-align: center;
     color: white;
 }
+
+.groen
+{
+    color: green;
+    font-weight: bold;
+}
+
+.rood
+{
+    color: red;
+    font-weight: bold;
+}
