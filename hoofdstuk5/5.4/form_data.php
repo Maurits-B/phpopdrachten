@@ -28,15 +28,16 @@ else
     $trafficLightColor = $_POST['trafficLightColor'];
     $ambulanceComing = $_POST['ambulanceComming'];
     echo "Stoplicht staat op $trafficLightColor en er komt: $ambulanceComing een ambulance aan.";
+    //Bepalen of je wel of niet mag doorrijden
+    if ($trafficLightColor <> "groen" || $ambulanceComing == 'ja')
+    {
+        echo "<div class='rood'>Je moet stoppen!!!</div>";
+    }
+    else
+    {
+        echo "<div class='groen'>Je mag doorrijden</div>";
+    }
 }
-//Bepalen of je wel of niet mag doorrijden
-if ($trafficLightColor <> "groen" || $ambulanceComing == 'ja')
-{
-    echo "<div class='rood'>Je moet stoppen!!!</div>";
-}
-else
-{
-    echo "<div class='groen'>Je mag doorrijden</div>";
-}
+
 echo "</div>";
 ?>

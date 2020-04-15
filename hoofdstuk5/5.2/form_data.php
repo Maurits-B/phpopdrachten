@@ -68,7 +68,7 @@
                 <td>Verwijder gegevens</td>
                 <td>
                     <?php
-                        if ($_GET["delinformation"] == "on")
+                        if (isset($_GET["delinformation"]))
                         {
                             echo "Ja";
                         }
