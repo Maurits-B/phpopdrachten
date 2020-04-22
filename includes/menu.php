@@ -3,6 +3,13 @@
         <h2>Menu</h2>
     </a>
     <ul>
+        <li>Extra's
+            <ul>
+                <li>
+                    <a href="/phpopdrachten/Eindopdracht P3/login.php"> Eindopdracht periode 3</a>
+                </li>
+            </ul>
+        </li>
         <li>Hoofdstuk 2
             <ul>
                 <li>

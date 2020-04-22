@@ -1,10 +1,9 @@
 <?php
 require "script.php";
-print_r($_POST);
 ?>
 <html>
     <head>
-
+        <link href="style.css" rel="stylesheet" type="text/css">
     </head>
 <body>
 <h1>Bergheen</h1>
@@ -56,22 +55,18 @@ print_r($_POST);
         <p>Welkom!</p>
         <fieldset>
             <legend>Openingstijden</legend>
-            <p>
                 Do: 22:00<br>
                 Vr: All day<br>
                 Za: All day<br>
                 Zo: 12:00
-            </p>
         </fieldset>
         <fieldset>
             <legend>Adresgegevens</legend>
-            <p>
                 Am Wriezener Bahnhof<br>
                 10243 Berlin<br>
                 Duitsland
-            </p>
         </fieldset>
-        <p>
+        <p id="secret">
             Deze gegevens dien je ten alle tijden geheim te houden!
         </p>
     <?php

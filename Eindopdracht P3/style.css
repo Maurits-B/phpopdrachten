@@ -1,0 +1,35 @@
+h1,
+p
+{
+    text-align: center;
+}
+
+table,
+fieldset
+{
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 35px;
+    left: 50%;
+}
+
+input
+{
+    border: 1px solid black;
+}
+
+fieldset
+{
+    float: left;
+    left: 45%;
+    width: 50px;
+}
+
+#secret
+{
+    margin-top: 130px;
+}
+
+h1{
+    margin-top: 15%;
+}
