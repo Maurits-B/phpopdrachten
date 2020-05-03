@@ -65,5 +65,12 @@
                 </li>
             </ul>
         </li>
+        <li>Hoofdstuk 6
+            <ul>
+                <li>
+                    <a href="/phpopdrachten/hoofdstuk6/opdracht61.php">Opdracht 6.1</a>
+                </li>
+            </ul>
+        </li>
     </ul>
 </aside>
