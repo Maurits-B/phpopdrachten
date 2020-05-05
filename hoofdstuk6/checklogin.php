@@ -16,9 +16,6 @@ foreach ($authUsers as $username => $password){
     else {
     //$message = "Ongeldige username/wachtwoord
     //{$_POST['username']}, probeer het nog eens.";
-        include "opdracht61.php";
+        header('location: opdracht61.php');
     }
 }
-
-
-?>
