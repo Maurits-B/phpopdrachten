@@ -5,6 +5,7 @@
  * Time: 01:30 AM
  * File: header.php
  */
+session_start();
 ?>
 
 <!DOCTYPE html>
