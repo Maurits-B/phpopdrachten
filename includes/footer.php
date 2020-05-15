@@ -30,7 +30,7 @@ else
         $year = date("Y");
             $name = "Maurits Bakker";
             //echo $name . "&copy" . $year;
-            echo $task1 . " " . $bezoeker . "&copy" . $year;
+            echo " " . $bezoeker . "&copy" . $year;
         ?>
         </footer>
     </body>
