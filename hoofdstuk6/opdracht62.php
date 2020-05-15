@@ -5,7 +5,7 @@
  * Time: **:** AM/PM
  * File: opdracht_2-1.php
  */
-$title = 'OPDRACHTNAAM';
+$title = '6.2';
 include "../includes/header.php";
 include "../includes/menu.php";
 include "../includes/variabelen.php";
@@ -13,24 +13,29 @@ include "../includes/variabelen.php";
 <main id="wrapper">
     <form id="gameFrm" method="get" action="opdracht62.php">
         <div class="float">
-            <input type="radio" onchange="document.getElementById('gameFrm').submit();" name="keuze" value="steen"
+            <input type="radio" onchange="document.getElementById('gameFrm').submit();" name="keuze" value="steen">
+            steen
             <img src="../images/steen.jpg">
         </div>
         <div class="float">
             <input type="radio" onchange="document.getElementById('gameFrm').submit();" name="keuze" value="papier">
+            papier
             <img src="../images/papier.jpg">
         </div>
         <div class="float">
             <input type="radio" onchange="document.getElementById('gameFrm').submit();" name="keuze" value="schaar">
+            schaar
             <img src="../images/schaar.jpg">
         </div>
     </form>
     <?php
-    session_start();
+    $user1 = 0;
+    $user2 = 0;
+
     print_r($_SESSION);
+    $user1 += $_SESSION['user1'];
+    $user2 += $_SESSION['user2'];
     //keuze
-    $user1 = $_SESSION['user1'] = 0;
-    $user2 = $_SESSION['user2'] = 0;
     $keuzespeler =  $_GET['keuze'];
 
     //Wat kiest de computer
@@ -62,7 +67,7 @@ include "../includes/variabelen.php";
             $user1 ++;
             echo "jij scoort<br> De score is " . $user1 . " tegen " . $user2;
         }
-        elseif ($keuzespeler === 'papier'){
+        elseif ($keuzespeler === 'schaar'){
             $user2 ++;
             echo "De computer scoort<br> De score is " . $user1 . " tegen " . $user2;
         }
@@ -85,15 +90,27 @@ include "../includes/variabelen.php";
             echo "Niemand scoort<br> De score is " . $user1 . " tegen " . $user2;
         }
         elseif ($keuzespeler === 'steen'){
-            echo "jij scoort<br> De score is " . $user1 . " tegen " . $user2;
             $user1 ++;
+            echo "jij scoort<br> De score is " . $user1 . " tegen " . $user2;
         }
         elseif ($keuzespeler === 'papier'){
-            echo "De computer scoort<br> De score is " . $user1 . " tegen " . $user2;
             $user2 ++;
+            echo "De computer scoort<br> De score is " . $user1 . " tegen " . $user2;
         }
     }
+    //score controler
 
+    if($user1 >= 5) {
+        echo "<br>jij hebt gewonnen";
+        $user1 = $user2 = 0;
+    }
+    elseif($user2 >= 5) {
+        echo "<br>jij hebt verloren";
+        $user1 = $user2 = 0;
+    }
+
+    $_SESSION['user1'] = $user1;
+    $_SESSION['user2'] = $user2;
     ?>
 </main>
 <?php
