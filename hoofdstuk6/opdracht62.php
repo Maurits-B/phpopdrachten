@@ -31,7 +31,7 @@ include "../includes/variabelen.php";
     <?php
     $user1 = 0;
     $user2 = 0;
-    
+
     $user1 += $_SESSION['user1'];
     $user2 += $_SESSION['user2'];
     //keuze controleren

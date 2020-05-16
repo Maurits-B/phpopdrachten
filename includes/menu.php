@@ -75,5 +75,15 @@
                 </li>
             </ul>
         </li>
+        <li>Hoofdstuk 7
+            <ul>
+                <li>
+                    <a href="/phpopdrachten/connectionscript.php">Opdracht 7.1</a>
+                </li>
+                <li>
+                    <a href="/phpopdrachten/hoofdstuk6/opdracht62.php">Opdracht 6.2</a>
+                </li>
+            </ul>
+        </li>
     </ul>
 </aside>
