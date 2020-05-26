@@ -83,6 +83,9 @@
                 <li>
                     <a href="/phpopdrachten/hoofdstuk7/opdracht72.php">Opdracht 7.2</a>
                 </li>
+                <li>
+                    <a href="/phpopdrachten/hoofdstuk7/opdracht73.php">Opdracht 7.3</a>
+                </li>
             </ul>
         </li>
     </ul>
