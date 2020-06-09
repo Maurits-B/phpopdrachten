@@ -47,3 +47,15 @@ function vergelijkOorzaken ($covidkans) {
             "(1 op {$kansen[$i -1]})'<br> maar kleiner dan de kans op '".$oorzaken[$i]."(1 op {$kansen[$i]})'";
     }
 }
+
+//uitvoeren van een query via exec()
+function executeQueryViaExec($sql){
+    global $pdo;
+    try {
+        //uitvoeren van de query via exec()
+        $pdo->exec($sql);
+    } catch (PDOException $e) {
+        echo 'Er is een probleem met het uitvoeren van exec(): ' . $e->getMessage();
+        exit();
+    }
+}
